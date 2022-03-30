@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scanner_fragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_scanStarten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="scanStarten"
+        android:text="Scan starten"
+        android:layout_margin="15dp" />
+
+    <TextView
+        android:id="@+id/textView_Barcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barcode:"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/etBarcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text=""
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/textView_typ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Typ:"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/etTyp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/button_allesGescannt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openAttentionFertigDialog"
+        android:text="Alles eingescannt"
+        android:layout_margin="15dp" />
+
+
+</LinearLayout>

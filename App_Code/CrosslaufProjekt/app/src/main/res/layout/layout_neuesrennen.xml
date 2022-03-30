@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="60dp" android:paddingRight="60dp" android:paddingVertical="30dp" android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jahrgang:"
+        />
+    <EditText
+        android:id="@+id/edit_jahrgang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="2010"
+        android:inputType="number"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geschlecht:"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_männlich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="männlich" />
+
+        <RadioButton
+            android:id="@+id/radio_weiblich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weiblich"/>
+    </RadioGroup>
+
+
+</LinearLayout>

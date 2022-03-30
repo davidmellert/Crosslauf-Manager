@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rennen"
+            android:icon="@drawable/ic_rennen"
+            android:title="Rennen" />
+
+        <item
+            android:id="@+id/nav_stopwatch"
+            android:icon="@drawable/ic_stopwatch"
+            android:title="Stoppuhr" />
+
+        <item
+            android:id="@+id/nav_scanner"
+            android:icon="@drawable/ic_scanner"
+            android:title="Scanner" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Hilfe"/>
+
+    </group>
+
+    <item android:title="Verbindung">
+        <menu>
+            <item
+                android:id="@+id/nav_connect"
+                android:icon="@drawable/ic_connect"
+                android:title="Verbinden" />
+            <item
+                android:id="@+id/nav_close_connection"
+                android:icon="@drawable/ic_disableconnection"
+                android:title="Verbindung trennen" />
+
+        </menu>
+    </item>
+</menu>

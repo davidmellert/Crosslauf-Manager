@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:padding="50dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/hilfeheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hilfe:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/hilfetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bei Fragen wenden Sie sich persönlich an die Entwickler oder schreiben Sie eine Mail an: info@crosslauf.de"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:lineHeight="35dp"/>
+
+    <Button
+        android:id="@+id/button_vibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="200dp"
+        android:text="Vibration an/ausschalten" />
+
+
+</RelativeLayout>
